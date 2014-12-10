@@ -100,6 +100,7 @@ header h2 {
 
 #downloads {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 a.button {
@@ -118,7 +119,7 @@ a.button {
   display: block;
   float: left;
   width: 179px;
-  margin-right: 14px;  
+  margin: 0 18px;  
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
@@ -147,7 +148,6 @@ a.button:hover {
 }
 
 a.button span {
-  padding-left: 50px;
   display: block;
   height: 23px;
 }
@@ -242,7 +242,16 @@ form {
 
 h1 {
   font-size: 32px;
+  text-align: center;
 } 
+
+#main_content h1 {
+  font-size: 120px;
+}
+
+#main_content a:hover {
+  text-decoration: underline;
+}
 
 h2 {
   font-size: 22px;
@@ -354,6 +363,7 @@ footer a:hover {
   }
   #downloads {
     margin-bottom: 25px;
+    text-align: center;
   }
   #download-zip, #download-tar-gz {
     display: none;
